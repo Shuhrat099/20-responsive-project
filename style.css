@@ -1,0 +1,719 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header style start */
+.header{
+    width: 100%;
+    height: 670px;
+}
+
+.navigation{
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.nav-menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.nav-menu li a{
+    color: #000000;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    transition: all .3s ease-in;
+}
+.fa-magnifying-glass{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.fa-magnifying-glass:hover{
+    color: grey;
+}
+.fa-magnifying-glass li a:hover{
+    color: grey;
+}
+.banner{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(./images/skyhaus-header1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+/* banner-card style start */
+.banner_card{
+    width: 331px;
+    height: 453px;
+    border: 5px solid  #B18E72;
+    margin: 40px 0 0 40px;
+}
+.banner_text{
+    width: 464px;
+    height: 180px;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 40px 0 0 40px;
+    color: white;
+}
+.price{
+    width: 175px;
+    height: 92px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    color: white;
+    margin-left: 40px;
+    
+}
+.banner_btn{
+    width: 168px;
+    height: 47px;
+    background-color: white;
+    color: black;
+    margin-left: 40px;
+}
+
+/* mobile responsive */
+
+@media screen and (max-Width: 600px) {
+    .nav-menu{
+        display: none;
+    }
+}
+@media screen and (min-Width: 600px) {
+    .nav-menu{
+        display: none;
+    }
+}
+@media screen and (min-Width: 768px) {
+    .nav-menu{
+        display: flex;
+    }
+    .fa-bars{
+        display: none;
+    }
+}
+.about_container{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_box{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-text_box{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.sky{
+    width: 376px;
+    height: 46px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.property{
+    width: 445px;
+    height: 141px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.icon_box1{
+    width: 100%;
+    height: 67px;
+    display: flex;
+    margin-top: 10px;
+}
+.icon1{
+    width: 215px;
+    height: 100%;
+}
+.icon2{
+    width: 215px;
+    height: 100%;
+}
+.icon_box2{
+    width: 100%;
+    height: 67px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.about-img_box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagess{
+    width: 90%;
+    height: 80%;
+}
+.definitoins_container{
+    width: 85%;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sarlavha_container{
+    width: 95%;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_title2{
+    width: 400px;
+    height: 46px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.banner_text2{
+    width: 560px;
+    height: 75px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+    color: black;
+    
+}
+
+.definitions_box{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.definitions_images{
+    width: 375px;
+    height: 420px;
+    background-image: url(./images/Freme\ 25.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.banner-name{
+    width: 288px;
+    height: 96px;
+    margin: 0 auto;
+    margin-top: 310px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.amazing{
+    width: 160px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.the{
+    width: 226px;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.xizmat_container{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.xizmat_box{
+    width: 85%;
+    height: 440px;
+    display: flex;
+    
+}
+.xizmat_box_left{
+    width: 40%;
+    height: 100%;
+    margin-left: 50px;
+    
+}
+.xizmat_box_left1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skyhaus_title{
+    width: 196px;
+    height: 92px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.skyhaus_text{
+    width: 443px;
+    height: 96px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-bottom: 5px;
+}
+.xizmat_box_left2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.tepa{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.frame17{
+    width: 123px;
+    height: 54px;
+    color: white;
+}
+.frame19{
+    width: 105px;
+    height: 54px;
+    color: white;
+}
+.frame21{
+    width: 82px;
+    height: 54px;
+    color: white;
+}
+.past{
+    padding-top: 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.frame18{
+    width: 146px;
+    height: 54px;
+    color: white;
+}
+.frame20{
+    width: 116px;
+    height: 54px;
+    color: white;
+}
+.frame22{
+    width: 64px;
+    height: 54px;
+    color: white;
+}
+.xizmat_box_right{
+    width: 50%;
+    height: 100%;
+}
+.frame_23{
+    width: 628px;
+    height: 440px;
+    margin-top: -3px;
+    margin-left: 30px;
+}
+.id_container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.id_box{
+    width: 84%;
+    height: 480px;
+    margin-left: 60px;
+    display: flex;
+}
+.poeple_sarlavha{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.our{
+    width: 191px;
+    height: 46px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.people_images{
+    width: 100%;
+    height: 412px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.people{
+    width: 299px;
+    height: 412px;
+    background-image: url(./images/Frame\ 24.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title_boxx{
+    width: 240px;
+    height: 74px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.title_boxx h1{
+    width: 114px;
+    height: 46px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.title_boxx h2{
+    width: 99px;
+    height: 46px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #888888;
+    margin-top: -20px;
+}
+.title_boxx2 h1{
+    width: 126px;
+    height: 46px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+}
+.title_boxx2 h2{
+    width: 27px;
+    height: 46px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #888888;
+    margin-top: -20px;
+}
+.people1{
+    width: 299px;
+    height: 412px;
+    background-image: url(./images/Freme\ 25\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 30px;
+}
+.people_email{
+    width: 40%;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.building{
+    width: 392px;
+    height: 147px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.people_email input{
+    width: 391px;
+    height: 51px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.btn{
+    width: 186px;
+    height: 49px;
+    margin-top: 50px;   
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.footer_container{
+    width: 100%;
+    height: 337px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_box{
+    width: 90%;
+    height: 260px;
+    border: 2px solid;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.information_container{
+    display: flex;
+    width: 100%;
+    column-gap: 10px;
+}
+.information_box{
+    width: 329px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact_title{
+    width: 101px;
+    height: 49px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.contact_text{
+    width: 270px;
+    height: 126px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.contact_title2{
+    width: 64px;
+    height: 49px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.contact_title3{
+    width: 170px;
+    height: 49px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.information_boxes{
+    width: 100%;
+    height: 102px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titles{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.end_title{
+    width: 94px;
+    height: 49px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.information_box input{
+    width: 100%;
+    height: 35px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+    color: white;
+}
+.end_btn{
+    width: 151px;
+    height: 36px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid white;
+}
+.theend{
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all_box{
+    width: 90%;
+    height: 100%;
+    border-top: 2px solid white;
+    border-radius: 1px;
+}
+.all{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
